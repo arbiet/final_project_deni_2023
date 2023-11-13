@@ -73,7 +73,7 @@ if (isset($_SESSION['UserID'])) {
                     <h1 class="text-6xl font-bold text-gray-700 mb-10"><?php echo $baseTitle; ?></h1>
                     <p class="text-gray-500 mb-10 text-xl"><?php echo $baseDescription; ?></p>
                     <a href="<?php echo $baseUrl; ?>public/systems/login.php" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                        Get Started
+                        Speed Test
                     </a>
                 </div>
             </div>

@@ -59,21 +59,21 @@ INSERT INTO `LogActivity` (`LogID`, `UserID`, `ActivityDescription`, `ActivityTi
 -- --------------------------------------------------------
 
 --
--- Table structure for table `Roles`
+-- Table structure for table `Role`
 --
 
-CREATE TABLE `Roles` (
+CREATE TABLE `Role` (
   `RoleID` int(11) NOT NULL,
   `RoleName` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `Roles`
+-- Dumping data for table `Role`
 --
 
-INSERT INTO `Roles` (`RoleID`, `RoleName`) VALUES
+INSERT INTO `Role` (`RoleID`, `RoleName`) VALUES
 (1, 'Admin'),
-(, 'Member');
+(2, 'Member');
 
 -- --------------------------------------------------------
 

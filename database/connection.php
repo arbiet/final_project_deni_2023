@@ -2,7 +2,7 @@
 $host = 'localhost'; // Ganti dengan host MySQL Anda
 $username = 'root'; // Ganti dengan username MySQL Anda
 $password = ''; // Ganti dengan password MySQL Anda
-$database = 'final_project_yayuk_2023'; // Ganti dengan nama database Anda
+$database = 'final_project_deni_2023'; // Ganti dengan nama database Anda
 
 // Membuat koneksi
 $conn = new mysqli($host, $username, $password, $database);
@@ -13,14 +13,15 @@ if ($conn->connect_error) {
 }
 
 // Base URL Configuration
-$baseUrl = "http://localhost/final_project_yayuk_2023/";
+$baseUrl = "http://localhost/final_project_deni_2023/";
 
 // base Title and description
-$baseTitle = "O'Ayam Geprek";
-$baseDescription = "O'Ayam Geprek - Mantul banget";
+$baseTitle = "Speed Snap";
+$baseDescription =
+    "Experience the thrill of real-time speed testing with Speed Snap – the ultimate tool to measure your internet velocity effortlessly. Unleash the power of accurate and reliable speed checks, providing you with detailed insights into your network performance. Snap, measure, and elevate your internet experience with Speed Snap today!";
 
 // Base Logo
-$baseLogoUrl = "http://localhost/final_project_yayuk_2023/static/logo.png";
+$baseLogoUrl = "http://localhost/final_project_deni_2023/static/logo.png";
 
 function insertLogActivity($conn, $userID, $activityDescription)
 {
@@ -48,9 +49,9 @@ function generateRandomUserID()
     return $randomUserID;
 }
 // $hostname = "localhost";
-// $db_username = "ikiz5613_admin_yayuk";
+// $db_username = "ikiz5613_admin_deni";
 // $db_password = "yongalah";
-// $db_name = "ikiz5613_final_project_yayuk_2023";
+// $db_name = "ikiz5613_final_project_deni_2023";
 
 // // Membuat koneksi
 // $conn = new mysqli($hostname, $db_username, $db_password, $db_name);
@@ -61,11 +62,10 @@ function generateRandomUserID()
 // }
 
 // // Base URL Configuration
-// $baseUrl = "https://yayukyuningsih.arbiet.my.id/";
+// $baseUrl = "https://deniwahtu.arbiet.my.id/";
 
-// // base Title and description
-// $baseTitle = "O'Ayam Geprek";
-// $baseDescription = "O'Ayam Geprek - Mantul banget";
-
+// $baseTitle = "Speed Snap";
+// $baseDescription =
+//     "Experience the thrill of real-time speed testing with Speed Snap – the ultimate tool to measure your internet velocity effortlessly. Unleash the power of accurate and reliable speed checks, providing you with detailed insights into your network performance. Snap, measure, and elevate your internet experience with Speed Snap today!";
 // // Base Logo
-// $baseLogoUrl = "https://yayukyuningsih.arbiet.my.id/static/logo.png";
+// $baseLogoUrl = "https://deniwahtu.arbiet.my.id/static/logo.png";
